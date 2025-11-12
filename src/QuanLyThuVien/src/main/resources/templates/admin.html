@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/css/admin_books.css">
+    <style>
+        .topbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .user-profile {
+            cursor: pointer;
+            font-weight: 600;
+            color: #007bff;
+            background: #e9f0fa;
+            padding: 8px 14px;
+            border-radius: 20px;
+            transition: background 0.2s ease;
+        }
+
+        .user-profile:hover {
+            background: #d0e4f7;
+        }
+    </style>
+</head>
+<body>
+<div class="admin-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Admin Panel</h2>
+        <ul>
+            <li onclick="window.location.href='/admin_orders'">📦 Quản Lý Đơn Hàng</li>
+            <li>👤 Quản Lý Người Dùng</li>
+            <li onclick="window.location.href='/admin_shipper'">🚚 Quản Lý Tài Khoản Shipper</li>
+            <li onclick="window.location.href='/admin_statistic'">📦Thống Kê</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Topbar chứa nút đăng xuất -->
+        <div class="topbar">
+            <div class="user-profile" onclick="logout()">👤 Đăng xuất</div>
+        </div>
+
+        <h1>Admin Dashboard</h1>
+        <p>Chọn chức năng từ menu bên trái.</p>
+    </div>
+</div>
+
+<script>
+    function logout() {
+        // Xoá dữ liệu đăng nhập nếu có
+        localStorage.clear();
+        sessionStorage.clear();
+        alert("Đăng xuất thành công!");
+        window.location.href = "/login"; // Điều hướng về trang đăng nhập
+    }
+</script>
+</body>
+</html>
