@@ -16,19 +16,22 @@
 
 ## 🚀 Tính năng chính
 
-### 🛒 Khách hàng (User)
-* **Mua sắm:** Tìm kiếm, lọc sách, quản lý giỏ hàng và thanh toán (Checkout).
-* **Cá nhân:** Theo dõi lịch sử đơn hàng, cập nhật thông tin tài khoản.
+###👤 Khách Hàng (User)
+Đăng ký, đăng nhập
+Tìm kiếm sách, xem chi tiết sách
+Thêm vào giỏ hàng, đặt hàng, thanh toán
+Theo dõi trạng thái đơn hàng, hủy đơn hàng
+###🛠️ Quản Trị Viên (Admin)
+Quản lý sản phẩm: thêm, xóa, cập nhật sách
+Quản lý đơn hàng: xem danh sách, xác nhận, hủy
+Quản lý người dùng: khóa/mở khóa tài khoản
+###📦 Thủ Kho (Store Keeper)
+Xem danh sách hàng tồn kho
+Cập nhật số lượng sách
+Xem danh sách đơn hàng đã xác nhận
+Xác nhận vận chuyển đơn hàng
 
-### 🛠 Quản trị viên (Admin)
-* **Dashboard:** Thống kê doanh thu, số lượng sách bán ra, quản lý tài khoản nhân viên.
-* **Dữ liệu:** Quản lý danh mục sách, giá bán và chương trình khuyến mãi.
-
-### 📦 Thủ kho (Inventory Manager)
-* **Quản lý nhập hàng:** Tạo phiếu nhập sách, cập nhật số lượng tồn kho thực tế.
-* **Kiểm kê:** Theo dõi sách sắp hết hàng để đề xuất nhập thêm.
-
-### 🚚 Người giao hàng (Shipper)
+###🚚 Người giao hàng (Shipper)
 * **Vận đơn:** Xem danh sách đơn hàng được phân công.
 * **Cập nhật trạng thái:** Chuyển trạng thái đơn hàng (Đang giao -> Giao thành công/Thất bại).
 
