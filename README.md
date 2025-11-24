@@ -16,22 +16,22 @@
 
 ## 🚀 Tính năng chính
 
-## 👤 Khách Hàng (User)
-Đăng ký, đăng nhập
-Tìm kiếm sách, xem chi tiết sách
-Thêm vào giỏ hàng, đặt hàng, thanh toán
-Theo dõi trạng thái đơn hàng, hủy đơn hàng
+### 👤 Khách Hàng (User)
+- Đăng ký, đăng nhập
+- Tìm kiếm sách, xem chi tiết sách
+- Thêm vào giỏ hàng, đặt hàng, thanh toán
+- Theo dõi trạng thái đơn hàng, hủy đơn hàng
 
-## 🛠️ Quản Trị Viên (Admin)
-Quản lý sản phẩm: thêm, xóa, cập nhật sách
-Quản lý đơn hàng: xem danh sách, xác nhận, hủy
-Quản lý người dùng: khóa/mở khóa tài khoản
+### 🛠️ Quản Trị Viên (Admin)
+- Quản lý sản phẩm: thêm, xóa, cập nhật sách
+- Quản lý đơn hàng: xem danh sách, xác nhận, hủy
+- Quản lý người dùng: khóa/mở khóa tài khoản
 
-## 📦 Thủ Kho (Store Keeper)
-Xem danh sách hàng tồn kho
-Cập nhật số lượng sách
-Xem danh sách đơn hàng đã xác nhận
-Xác nhận vận chuyển đơn hàng
+### 📦 Thủ Kho (Store Keeper)
+- Xem danh sách hàng tồn kho
+- Cập nhật số lượng sách
+- Xem danh sách đơn hàng đã xác nhận
+- Xác nhận vận chuyển đơn hàng
 
 ## 🚚 Người giao hàng (Shipper)
 * **Vận đơn:** Xem danh sách đơn hàng được phân công.
